@@ -5,4 +5,4 @@ Mostly I work on bringing together modellers working on Covid-19 across Europe, 
 I'm also on:
 - Twitter [@kathsherratt](https://twitter.com/kathsherratt)
 - [Google Scholar](https://scholar.google.com/citations?user=sX3wiBAAAAAJ&hl=en)
-- [LinkedIn](http://uk.linkedin.com/in/katharinesherratt/)
+- [LinkedIn](http://uk.linkedin.com/in/kathsherratt/)
