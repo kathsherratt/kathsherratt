@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+Hi! I'm Kath, a research assistant at the LSHTM in London. I work in the [Epiforecasts](https://epiforecasts.io/), team which is based in the [Centre for Mathematical Modelling of Infectious Disease](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases). 
 
-You can use the [editor on GitHub](https://github.com/kathsherratt/kathsherratt/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kathsherratt/kathsherratt/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Mostly I work on bringing together modellers working on Covid-19 across Europe, by working in the European [Forecast](https://covid19forecasthub.eu/) and [Scenario](https://covid19scenariohub.eu/) hubs. My background is in epidemiology and research funding, and I have a strong interest in collaborative and interdisciplinary approaches to public health.
