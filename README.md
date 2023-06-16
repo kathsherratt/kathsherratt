@@ -7,3 +7,5 @@ I'm also on:
 - [Google Scholar](https://scholar.google.com/citations?user=sX3wiBAAAAAJ&hl=en)
 - [LinkedIn](http://uk.linkedin.com/in/kathsherratt/)
 - [Github](https://github.com/kathsherratt)
+
+[CV](cv.md)
