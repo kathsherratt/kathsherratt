@@ -1,6 +1,6 @@
 ### About
 
-I'm Kath, a research assistant at the LSHTM in London. I work in the [epiforecasts](https://epiforecasts.io/) team, which focuses on developing tools for the real-time analysis of epidemics. We are based in the [Centre for Mathematical Modelling of Infectious Disease](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases). 
+I'm Kath, a research assistant at the LSHTM in London. I work in the [epiforecasts](https://epiforecasts.io/) group, which focuses on developing tools for the real-time analysis of epidemics. We are based in the [Centre for Mathematical Modelling of Infectious Disease](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases). 
 
 Currently I mostly work on collaborative modelling - collecting, combining and evaluating the projections of multiple independent models. This mostly comes about from working on the development of the European [Forecast](https://covid19forecasthub.eu/) and [Scenario](https://covid19scenariohub.eu/) Hubs. Before that, I worked on supporting the emergency response to COVID-19, mostly in the UK.
 
