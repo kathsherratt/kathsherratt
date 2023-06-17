@@ -15,7 +15,7 @@ A few favourite pieces that I've worked on lately are:
 
 More formally, I recently had to write a bit about myself in the course of applying for various things, so I am sticking it on here without edits.
 - my research narrative, [April 2023](docs/research-narrative.md)
-- my CV, [June 2023](https://github.com/kathsherratt/kathsherratt/blob/main/230528%20Sherratt%20CV.pdf) (pdf)
+- my CV, [June 2023](docs/230528-Sherrat-20CV.pdf)
 
 ### Contact
 
