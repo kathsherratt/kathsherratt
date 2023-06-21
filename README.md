@@ -4,7 +4,7 @@ I'm Kath, a research assistant at the LSHTM in London. I work in the [epiforecas
 
 Currently I mostly work on collaborative modelling - collecting, combining and evaluating the projections of multiple independent models. This mostly comes about from working on the development of the European [Forecast](https://covid19forecasthub.eu/) and [Scenario](https://covid19scenariohub.eu/) Hubs. Before that, I worked on supporting the emergency response to COVID-19, mostly in the UK.
 
-In general I am interested in uncertainty and decision making using quantified projections of the future. I am also generally enthusiastic about the history and philosophy of science. I took a slightly unexpected route into studying epidemiology from geography via working at the Wellcome Trust.
+In general I am interested in uncertainty and decision making using quantified projections of the future. I am also generally enthusiastic about the history and philosophy of science.
 
 ### Recent work
 
