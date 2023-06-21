@@ -1,10 +1,12 @@
 ### About
 
-I'm Kath, a research assistant at the LSHTM in London. I work in the [epiforecasts](https://epiforecasts.io/) group, which focuses on developing tools for the real-time analysis of epidemics. We are based in the [Centre for Mathematical Modelling of Infectious Disease](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases). 
+I'm Kath, a research assistant at the LSHTM in London. I work in the [epiforecasts](https://epiforecasts.io/) group, based in the [Centre for Mathematical Modelling of Infectious Disease](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases). 
 
-Currently I mostly work on collaborative modelling - collecting, combining and evaluating the projections of multiple independent models. This mostly comes from working on the development of the European [Forecast](https://covid19forecasthub.eu/) and [Scenario](https://covid19scenariohub.eu/) Hubs. Before that, I worked on supporting the emergency response to COVID-19, mostly in the UK.
+I focus on collaborative modelling - collecting, combining and evaluating the projections of multiple independent models - for the real-time analysis of epidemics. This started by helping to develop the European [Forecast](https://covid19forecasthub.eu/) and [Scenario](https://covid19scenariohub.eu/) Hubs. 
 
-In general I am interested in uncertainty and decision making using quantified projections of the future. I am also generally enthusiastic about the history and philosophy of science.
+Before that, I worked on supporting the emergency response to COVID-19, mostly in the UK, after training in epidemiology at LSHTM and spending some time working on dengue fever. 
+
+In general I'm interested in model evaluation and public health decision making. I'm also keen on talking about (and mostly end up [tweeting](https://twitter.com/kathsherratt) about) the structures and processes of modern academic work.
 
 ### Recent work
 
@@ -19,5 +21,5 @@ More formally, I recently had to write a bit about myself in the course of apply
 
 ### Contact
 
-- I'm on twitter [@kathsherratt](https://twitter.com/kathsherratt). I pretty much exclusively retweet cool-looking meta-science things
-- Email me at: katharine.sherratt at lshtm.ac.uk
+- I'm on twitter [@kathsherratt](https://twitter.com/kathsherratt)
+- Email me at: katharine.sherratt (at) lshtm.ac.uk
