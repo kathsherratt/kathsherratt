@@ -11,9 +11,9 @@ In general I'm interested in model evaluation and public health decision making.
 ### Recent work
 
 A few favourite pieces that I've worked on lately are:
-- a [discussion](https://www.biorxiv.org/content/10.1101/2023.06.12.544667v1) of the experiences of modellers working on the UK COVID-19 response, and the need for better structures and processes of scientific advice in emergency situations
+- a [discussion](https://twitter.com/MRC_Outbreak/status/1733064080879919377) and [paper](https://www.biorxiv.org/content/10.1101/2023.06.12.544667v1)) exploring the experiences of modellers working on the UK COVID-19 response, and the need for better structures and processes of scientific advice in emergency situations
 - a [talk](https://docs.google.com/presentation/d/1c42Lj_6EBD25YdLRGbVKI2DuhmONhAk791Gs--8Daxc/edit#slide=id.g196fd35e525_2_25) looking back over the European COVID-19 Modelling Hubs
-- a [grant application](docs/covid19-response-fund-app.md) that was mostly a fun rant about the big collaborative infrastructure projects we've set up in infectious disease, what IMHO I think we should be thinking about, and the potential to borrow ideas about them from other sciences. (Update: it got funded, yay)
+- a [grant application](docs/covid19-response-fund-app.md) looking at the big collaborative infrastructure projects we've set up in infectious disease, what IMHO I think we should be thinking about, and the potential to borrow ideas about them from other sciences
 
 More formally, I recently had to write a bit about myself in the course of applying for various things, so I am sticking it on here without edits.
 - my research narrative, [April 2023](docs/research-narrative.md)
