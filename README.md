@@ -2,9 +2,9 @@
 
 I'm Kath, a research fellow at the LSHTM in London. I work in the [epiforecasts](https://epiforecasts.io/) group, based in the [Centre for Mathematical Modelling of Infectious Disease](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases). 
 
-I focus on collaborative modelling - collecting, combining and evaluating the projections of multiple independent models - for the real-time analysis of epidemics. This started by helping to develop the European [Forecast](https://covid19forecasthub.eu/) and [Scenario](https://covid19scenariohub.eu/) Hubs. 
+I focus on collaborative modelling - collecting, combining and evaluating the projections of multiple independent models - for the real-time analysis of epidemics. For the last couple of years, I worked on the development and evaluation of the European COVID-19 [Forecast](https://covid19forecasthub.eu/) and [Scenario](https://covid19scenariohub.eu/) Hubs. Before that, I worked on supporting the UK's emergency response to COVID-19. 
 
-Before that, I worked on supporting the UK's emergency response to COVID-19, after training in epidemiology at LSHTM and spending some time working on dengue fever. 
+I previously training in epidemiology and spent some time working on dengue fever. 
 
 In general I'm interested in model evaluation and public health decision making. I'm also keen on talking about (and mostly end up [tweeting](https://twitter.com/kathsherratt) about) the structures and processes of modern academic work.
 
