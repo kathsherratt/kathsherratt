@@ -21,5 +21,5 @@ More formally, I recently had to write a bit about myself in the course of apply
 
 ### Contact
 
-- I'm on twitter [@kathsherratt](https://twitter.com/kathsherratt)
+- My social media handle is [@kathsherratt](https://twitter.com/kathsherratt)
 - Email me at: katharine.sherratt (at) lshtm.ac.uk
