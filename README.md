@@ -8,16 +8,9 @@ In general I'm interested in model evaluation and public health decision making,
 
 ### Recent work
 
-Most recently, I've submitted a PhD (by prior publication): 
-- [Collaborative outbreak modelling for decision support: evaluating trade-offs from multi-model combination](docs/2024_EPH_PhD_Sherratt_K.pdf)
-
-A few favourite pieces that I've worked on lately are:
-- a [discussion](https://twitter.com/MRC_Outbreak/status/1733064080879919377) and [paper](https://www.biorxiv.org/content/10.1101/2023.06.12.544667v1) exploring the experiences of modellers working on the UK COVID-19 response, and the need for better structures and processes of scientific advice in emergency situations
-- a [grant application](docs/covid19-response-fund-app.md) looking at the big collaborative infrastructure projects we've set up in infectious disease, what IMHO I think we should be thinking about, and the potential to borrow ideas about them from other sciences
-
-More formally:
-- [papers](https://scholar.google.com/citations?user=sX3wiBAAAAAJ&hl=en)
-- my [CV](docs/Sherratt-CV.pdf)
+- Most recently, I've submitted a PhD (by prior publication): 
+  - [Collaborative outbreak modelling for decision support: evaluating trade-offs from multi-model combination](docs/2024_EPH_PhD_Sherratt_K.pdf)
+- [Research papers](https://scholar.google.com/citations?user=sX3wiBAAAAAJ&hl=en)
 
 ### Contact
 
