@@ -8,8 +8,8 @@ In general I'm interested in model evaluation and public health decision making,
 
 ### Recent work
 
-- Most recently, I've submitted a PhD (by prior publication): 
-  - [Collaborative outbreak modelling for decision support: evaluating trade-offs from multi-model combination](docs/2024_EPH_PhD_Sherratt_K.pdf)
+- PhD by prior publication: 
+  - [Collaborative outbreak modelling for decision support: evaluating trade-offs from multi-model combination](https://researchonline.lshtm.ac.uk/id/eprint/4674767/)
 - [Research papers](https://scholar.google.com/citations?user=sX3wiBAAAAAJ&hl=en)
 
 ### Contact
