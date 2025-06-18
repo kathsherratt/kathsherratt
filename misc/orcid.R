@@ -35,3 +35,24 @@ person_pubs <- pubs |>
   count(token, sort = TRUE) |>
   filter(is.na(as.numeric(token))) |>
   slice_max(order_by = n, n = 3, with_ties = FALSE)
+
+# ---
+library(tidytext)
+library(topicmodels)
+ap_lda <- LDA(AssociatedPress, k=2)
+ap_lda <- tidy(ap_lda, matrix = "beta")
+
+
+# openalex ----------------------------------------------------------------
+library(openalexR)
+openalex <- openalexR::oa_fetch(
+  search = query,
+  pages = 1,
+  per_page = 10,
+  options = list(sort = "relevance_score:desc"),
+  verbose = TRUE
+)
+
+auid <- "[auid] OR "
+pubmed <- clipr::write_clip(cat(ids |> filter(Active=="TRUE") |> pull(person_orcid), sep = auid))
+

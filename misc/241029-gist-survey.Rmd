@@ -1,0 +1,146 @@
+---
+title: "Appendix: Responses to improving conditions for outbreak modelling"
+date: "2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(knitr)
+library(googlesheets4)
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(ggplot2)
+library(patchwork)
+library(stringr)
+library(kableExtra)
+theme_set(theme_bw())
+```
+
+```{r get-data}
+# get responses & simplified question labels
+data_raw <- read_sheet("https://docs.google.com/spreadsheets/d/1oCS018Tts-vZeR358iPor5hkyvJOAFhP_BjUQT6BsjE/edit?resourcekey#gid=458285708")
+cols <- read_sheet("https://docs.google.com/spreadsheets/d/1oCS018Tts-vZeR358iPor5hkyvJOAFhP_BjUQT6BsjE/edit?resourcekey#gid=458285708", sheet = "colnames")
+
+# sort out messy questions
+responses <- c(
+  "Considerably improved", 
+  "Improved",
+  "No change", 
+  "Don't know",
+  "Worsened", 
+  "Considerably worsened"
+)
+data <- data_raw |>
+  mutate(participant = row_number()) |>
+  select(-Timestamp) |>
+  pivot_longer(cols = !participant, names_to = "question") |>
+  left_join(cols, by = c("question" = "colname_raw")) |> 
+  mutate(recommendation = forcats::fct_reorder(recommendation, action_no),
+         response = ordered(value,
+                         levels = responses,
+                         labels = responses))
+```
+
+### Multichoice questions
+
+```{r multichoice}
+# Multichoice questions ----------------------
+multichoice <- data |>
+  mutate(past_future = ordered(past_future,
+                               levels = c("Future", "Past", 
+                                          "action", "other"),
+                               labels = c("Next year", 
+                                          "Previous year",
+                                          NA, NA))) |> 
+  filter(action_no > 1)
+
+# check N=14 for all questions
+mc_total <- multichoice |>
+  group_by(recommendation, past_future) |> 
+  summarise(n = n())
+
+# count responses
+mc_summary <- multichoice |>
+  group_by(theme_no, theme, recommendation, past_future, response) |>
+  count()
+```
+
+### Responses across all items
+
+```{r all-multichoice, fig.height=3,fig.width=6}
+mc_summary |> 
+  group_by(past_future, response) |> 
+  ggplot(aes(x = response, fill = past_future)) + 
+  geom_bar(position = "dodge") + 
+  scale_fill_discrete() +
+  scale_y_continuous(n.breaks = 12) +
+  labs(x = NULL, y = NULL, fill = "1-year period") +
+  theme(legend.position = "bottom")
+```
+
+### Responses by item
+
+```{r plot-multichoice, fig.height=10, fig.width = 10}
+# set plot colours
+value_colours <- c(
+  "Considerably improved" = "#1a9850",
+  "Improved" = "#91cf60",
+  "No change" = "#fee08b",
+  "Don't know" = "#e0e0e0",
+  "Worsened" = "#fc8d59",
+  "Considerably worsened" = "#d73027"
+)
+
+# plot
+mc_summary |>
+  mutate(p = n / 14,
+         recommendation = paste0(theme_no, " | ", recommendation)) |> 
+    ggplot(aes(y = past_future, 
+               #x = n,
+               x = p,
+             fill = response)) +
+    geom_col() +
+    #scale_x_continuous(breaks = seq(from=0,to=14, by=2)) +
+    scale_x_continuous(labels = scales::percent,
+                       expand = expansion(0.01)) +
+    scale_fill_manual(values = value_colours) +
+    labs(x = NULL, y = NULL, fill = NULL) +
+    facet_wrap(~recommendation, ncol=1, drop = TRUE) +
+    theme_classic() +
+    theme(legend.position = "bottom",
+          strip.text.x = element_text(hjust = -0.01),
+          strip.background = element_blank(),
+          text = element_text(size = 15)) +
+  guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+```
+
+
+```{r table-multichoice}
+mc_tab <- mc_summary |> 
+  select(theme, recommendation, time = past_future, response, n) |> 
+  pivot_wider(values_from = n, names_from = response) |> 
+  select(theme, recommendation, time, 
+         responses) |> 
+  mutate(across(responses, ~ replace_na(., 0))) 
+
+mc_tab |> 
+  kable(booktabs = TRUE) |> 
+  kable_styling()
+```
+
+## Comments by theme
+
+```{r comments}
+# Comments ----------------------------------------------------------------
+comments <- filter(data, past_future == "action") |>
+  drop_na(value) |> 
+  select(participant, theme, actions = value) |> 
+  group_by(theme) |> 
+  arrange(.by_group = TRUE) |> 
+  mutate(actions = str_replace_all(actions, "[:space:]"," "))
+
+comments |> 
+  kable()
+```
